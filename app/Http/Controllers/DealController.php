@@ -95,14 +95,9 @@ class DealController extends Controller
      */
     public function get_deal()
     {
+        //
         $deal = new Deal();
         return $deal->get_deal();
-    }
-
-    public function get_deal_forecast()
-    {
-        $deal = new Deal();
-        return $deal->get_deal_forecast();
     }
 
     /**
